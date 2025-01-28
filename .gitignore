@@ -1,0 +1,21 @@
+# SBT
+
+## Build
+project
+target
+
+## Build Server Protocol
+.bsp
+
+# Editors
+
+## IntelliJ IDEA
+.idea
+
+## Visual Studio Code
+.vscode
+
+# OS
+
+## macOS
+.DS_Store
