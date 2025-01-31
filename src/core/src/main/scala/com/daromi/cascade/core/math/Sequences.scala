@@ -1,14 +1,14 @@
 package com.daromi.cascade.core.math
 
-def factorial1(n: Int): Int =
-  require(n >= 0, "n must be non-negative")
+def factorial1(n: Long): Long =
+  require(n >= 0L, "n must be non-negative")
 
-  if n == 0 || n == 1 then 1
-  else n * factorial1(n - 1)
+  if n == 0L || n == 1L then 1L
+  else n * factorial1(n - 1L)
 
-def fibonacci1(n: Int): Int =
-  require(n >= 0, "n must be non-negative")
+def fibonacci1(n: Long): Long =
+  require(n >= 0L, "n must be non-negative")
 
-  if n == 0 then 0
-  else if n == 1 then 1
-  else fibonacci1(n - 1) + fibonacci1(n - 2)
+  if n == 0L then 0L
+  else if n == 1L then 1L
+  else fibonacci1(n - 1L) + fibonacci1(n - 2L)
