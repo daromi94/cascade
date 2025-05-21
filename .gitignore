@@ -1,10 +1,10 @@
-# SBT
+# sbt
 target
 .bsp
 
-# Editors
+# editors
 .idea
 .vscode
 
-# OS
+# os
 .DS_Store
