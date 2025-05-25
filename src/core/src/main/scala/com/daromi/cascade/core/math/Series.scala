@@ -8,5 +8,5 @@ def triangular(n: Int): Int =
 def triangular1(n: Int): Int =
   require(n >= 1, "n must be positive")
 
-  if (n == 1) 1
+  if n == 1 then 1
   else n + triangular(n - 1)
